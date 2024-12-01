@@ -1,6 +1,10 @@
 # Instant3dit: Multiview Inpainting for Fast Editing of 3D Objects
 
-![alt text](https://github.com/amirbarda/Instant3dit/blob/main/assets/teaser.png?raw=true)
+[Project Page](https://amirbarda.github.io/Instant3dit.github.io/)
+
+## Demo:
+[![Demo](https://img.youtube.com/vi/Rs0Tdk0foZI/0.jpg)](https://www.youtube.com/watch?v=Rs0Tdk0foZI)
+
 
 ![alt text](https://github.com/amirbarda/Instant3dit/blob/main/assets/overview.png?raw=true)
 
