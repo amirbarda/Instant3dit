@@ -12,6 +12,8 @@ The code has been tested on python 3.8 and 3.10 with pytorch 2.1.2 and 2.7.0, bo
 2. download the multiview inpainting [SDXL weights](https://drive.google.com/drive/folders/1yLdhgEqv0FBD19r4RPBsBzpa3congkDv?usp=sharing)
 3. replace Path/to/Instant3dit_model in the default argument with the path to the SDXL multiview inpainting checkpoint folder downloaded in the previous step.
 
+To test run `demo_mv_images.sh`
+
 **Note:** We use the diffusers library, so you must have a Huggingface [access token](https://huggingface.co/docs/hub/en/security-tokens), in a file called TOKEN, at the root of the project.
 
 ## Reconstructing using LRMs (Large Reconstruction Models)
@@ -23,7 +25,8 @@ We allow for using these LRMS seamlessly in our inference code.
 ### mesh LRM
 We use [InstantMesh](https://github.com/TencentARC/InstantMesh) for mesh reconstruction, all the required dependencies are already in `requirements.txt`. \
 locally clone InstantMesh: `git clone git@github.com:TencentARC/InstantMesh.git` \
-and replace Path/to/InstantMesh in the default argument for instantmesh_path with the path to the InstantMesh folder
+and replace Path/to/InstantMesh in the default argument for instantmesh_path with the path to the InstantMesh folder. \
+To test run `demo_mesh.sh`
 
 ### 3D Gaussian Splats LRM
 We use [geoLRM](https://github.com/alibaba-yuanjing-aigclab/GeoLRM) for 3DGS reconstruction, To install, after installing all the dependencies in requirements.txt, run: \
@@ -32,8 +35,8 @@ We use [geoLRM](https://github.com/alibaba-yuanjing-aigclab/GeoLRM) for 3DGS rec
 `pip install git+https://github.com/Stability-AI/generative-models.git` \
 (**Note**: installing flash-attn may take a while) \
 locally clone geoLRM: `git clone git@github.com:alibaba-yuanjing-aigclab/GeoLRM.git` \
-and replace Path/to/geoLRM in the default argument for geoLRM_path with the path to the geoLRM folder
-
+and replace Path/to/geoLRM in the default argument for geoLRM_path with the path to the geoLRM folder. \
+To test run `demo_3dgs.sh`
 ## TODO:
 - [ ] adaptive remeshing pipeline
 - [ ] texturing pipeline
