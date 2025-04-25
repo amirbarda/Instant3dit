@@ -42,3 +42,18 @@ To test run `demo_3dgs.sh`
 - [ ] texturing pipeline
 - [ ] training code
 - [ ] training dataset
+
+
+<hr/>
+<br/><br/>
+If you find this work useful, please cite as:
+<br/><br/>
+
+```
+ @misc{barda2024instant3ditmultiviewinpaintingfast,
+      title={Instant3dit: Multiview Inpainting for Fast Editing of 3D Objects}, 
+      author={Amir Barda and Matheus Gadelha and Vladimir G. Kim and Noam Aigerman and Amit H. Bermano and Thibault Groueix},
+      journal = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year = {2025}, 
+} 
+```
