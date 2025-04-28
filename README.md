@@ -2,6 +2,8 @@
 
 [Project Page](https://amirbarda.github.io/Instant3dit.github.io/) | [Paper](https://arxiv.org/pdf/2412.00518) |
 
+[![Demo](https://img.youtube.com/vi/Rs0Tdk0foZI/0.jpg)](https://www.youtube.com/watch?v=Rs0Tdk0foZI)
+
 This is the official implementation of Instant3dit. We provide the weights and inference code for the multiview 3d inpainting network that allows fast editing of 3d objects, by reconstruction to various representations using corresponding LRMs (Large Reconstruction Models).
 
 ![alt text](https://github.com/amirbarda/Instant3dit/blob/main/assets/overview.png?raw=true)
