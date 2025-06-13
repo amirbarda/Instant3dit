@@ -10,7 +10,7 @@ This is the official implementation of Instant3dit. We provide the weights and i
 
 ## Multiview Edited Image Generation
 The code has been tested on python 3.8 and 3.10 with pytorch 2.1.2 and 2.7.0, both with cuda 11.8, but should work for all versions in between.
-1. run `pip install requirements.txt` to install dependencies
+1. run `pip install -r requirements.txt` to install dependencies
 2. download the multiview inpainting [SDXL weights](https://drive.google.com/drive/folders/1yLdhgEqv0FBD19r4RPBsBzpa3congkDv?usp=sharing)
 3. replace Path/to/Instant3dit_model in the default argument with the path to the SDXL multiview inpainting checkpoint folder downloaded in the previous step.
 
