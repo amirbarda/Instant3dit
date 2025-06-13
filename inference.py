@@ -188,6 +188,9 @@ output.save(Path(output_path, '{}.png'.format(prompt[0].replace(' ', '_'))))
 # output to LRM
 print ('output_type : {}'.format(args.output_type), flush=True)
 
+# Free VRAM used by the diffusion pipeline
+del pipe
+
 if args.output_type in ['mesh']:
     from LRMs.mesh import reconstruct_using_mesh_lrm
     c2w, intrinsics = get_zero123plus_input_cameras(azimuth_offset = args.azimuth_offset)
