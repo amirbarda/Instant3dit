@@ -1,0 +1,2 @@
+training_data/renders/000-008/a5e73281c04c42dda5fd3d35f313c593/renderings
+training_data/renders/000-038/243ef11dc7184e08a702b48960106a07/renderings
