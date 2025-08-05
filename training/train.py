@@ -119,7 +119,7 @@ if __name__ == "__main__":
         }
     config.model.params.loss_fn_config['target'] = 'loss.StandardDiffusionLoss'
 
-    model = DiffusionEngine(opt.inpainting_checkpoint_path,pipe_kwargs = pipe_kwargs)
+    model = DiffusionEngine(opt.checkpoint_path, pipe_kwargs = pipe_kwargs)
     model.learning_rate = config.model.base_learning_rate
     
     #model = model.to('cuda')
