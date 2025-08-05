@@ -44,9 +44,9 @@ To test run `demo_3dgs.sh`
 The mask renderings used to train the network are provided [here](https://drive.google.com/drive/folders/1Ia7G0U0mr5K-_hTp9zZQwv6yy_hsyXUt). Each Objaverse model used has 16 renders, with renders 0,4,8,12 corresponding to the camera positions given in cameras/opencv_cameras.json.
 
 ## TODO:
-- [ ] adaptive remeshing pipeline
+- [X] adaptive remeshing pipeline
 - [ ] texturing pipeline
-- [ ] training code
+- [X] training code + mask creation code
 - [X] training dataset
 
 ### BibTex
